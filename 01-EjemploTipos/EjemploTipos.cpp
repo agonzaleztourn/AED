@@ -5,8 +5,8 @@ int main(){
     // Ejemplo booleanos
     assert(true==true);
     assert(true!=false);
-    assert(true or false==true);
-    assert(true and true==true);
+    assert(true or false);
+    assert(true and true);
     assert(!false);
     assert(true xor false);
     // Ejemplos char
@@ -37,6 +37,9 @@ int main(){
     assert(std::string("casa")==std::string("casa"));
     //Ejemplos unsigned
     assert(2U+3U==5U);
-    assert(4U-3U==1U);  
+    assert(4U-3U==1U);
+    assert(5U<=6U);
+    assert(5U>=3U);
+    assert(5U!=7U);  
 
 }
